@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    >
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/item_device_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/item_device_blue_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/item_device_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/item_bond_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/item_device_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/colorPrimary"
+        android:gravity="center_horizontal"
+        />
+
+</LinearLayout>
